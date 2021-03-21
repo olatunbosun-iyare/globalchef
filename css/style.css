@@ -1,0 +1,213 @@
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* SECTION ONE */
+/* Background Image */
+#one {
+  background-image: url(../images/2476071@2x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* Navigation Bar */
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.navbar-global {
+  /* color:#FFC72C; */
+  letter-spacing: 2px;
+}
+.navbar-chef {
+  /* color:red; */
+  letter-spacing: 2px;
+}
+
+.nav-item {
+  /* font-size: 28px; */
+  padding-right: 61px;
+}
+
+.active {
+  color: #ffc72c;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  border-radius: 10px;
+  font-size: 28px;
+  height: 60px;
+  width: 143px;
+  text-align: center;
+}
+
+/* Center Text */
+
+.center-text {
+  margin-top: 401px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.center-h2 {
+  margin-bottom: 25px;
+}
+.lower-case {
+  color: #ffc72c;
+}
+
+.center-button {
+  border-radius: 10px;
+  padding-right: 47px;
+  padding-left: 47px;
+  height: 47px;
+  text-align: center;
+  margin-bottom: 333px;
+}
+
+/* SECTION TWO */
+.center-h4 {
+  margin-top: 85px;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+#two {
+  text-align: center;
+  background-position: center;
+}
+
+.section-p {
+  color: #da291c;
+  font-size: 32px;
+  margin-top: 45px;
+}
+
+.section-pp {
+  font-size: 21px;
+}
+
+/* SECTION THREE */
+
+#three {
+  background-position: center;
+  text-align: center;
+}
+
+.card-body {
+  /* height: 214px; */
+  text-align: left;
+}
+
+.card-img-top {
+  height: 207px;
+}
+
+.explore {
+  margin-top: 33px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+}
+
+.rating {
+  font-size: 0.7em;
+}
+
+.sec-centreh {
+  margin-bottom: 42px;
+  margin-top: 20px;
+}
+
+.sec-centrep {
+  margin-bottom: 44px;
+}
+
+/* SECTION FOUR */
+
+#four{
+  /* background-image:url(/images/lukas-blazek-f-TWhXOrLiU-unsplash\ \(1\).png); */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/images/lukas-blazek-f-TWhXOrLiU-unsplash\ \(1\).png);
+  background-size: cover;
+}
+
+.section-four {
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.bold-text-one {
+  color: #ffc72c;
+  padding-bottom: 40px;
+}
+.bold-text-two {
+  color: #ffc72c;
+  padding-top: 40px;
+
+}
+
+.four-para {
+  color: #ffffff;
+}
+
+.four-text {
+}
+
+.open-quote {
+margin-top:50px ;
+margin-left:100px;
+}
+
+.four-image {
+margin-top:50px;
+}
+.close-quote {
+margin-top: 300px;
+margin-left: 120px;
+}
+
+/* SECTION FIVE */
+
+.section-five{
+  padding:7% 24.5% 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* // Example
+// Apply styles starting from medium devices and up to extra large devices */
+@media (min-width: 320px) and (max-width: 1024px) {
+  #one {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../images/2476071.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    /* width: 100vh; */
+  }
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    text-align: center;
+  }
+
+  #signIn {
+    margin: auto;
+  }
+}
